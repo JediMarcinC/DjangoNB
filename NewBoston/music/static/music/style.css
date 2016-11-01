@@ -1,0 +1,13 @@
+h2 {color: red;}
+
+body {
+    background: white url("images/background.jpg");
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-brand {
+    font-family: 'Satisfy', cursive;
+}
