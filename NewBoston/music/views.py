@@ -3,6 +3,7 @@ from django.views import generic
 from django.views.generic import CreateView, DeleteView, UpdateView
 from .models import Album
 
+
 class IndexView(generic.ListView):
     template_name = 'music/index.html'
     context_object_name = 'albums_list' # overrides default name 'object_list'
